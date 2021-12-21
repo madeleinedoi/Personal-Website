@@ -22,7 +22,7 @@
 
 body{
   font-family: 'Montserrat';
-  color: #efecec;
+  color: #000000;
   font-weight: 500;
   font-size: 19px;
   line-height: 175%;
@@ -48,13 +48,13 @@ h3{
 }
 
 h4{
-  font-family: bely-display, sans-serif;
+  font-family:'Helvetica';
   font-size: 30px;
   top: 20px;
   left: 40px;
 }
 .navbar-brand{
-    font-family: bely-display, 'Helvetica';
+    font-family: 'Helvetica';
     font-size: 30px;
     top: 20px;
     left: 40px;
@@ -66,7 +66,7 @@ a{
 
 a:hover{
   color: inherit;
-  border-bottom: 2px solid #b6a692;
+  border-bottom: 2px solid #50443a;
   transition: 0.3s;
 }
 
@@ -80,20 +80,20 @@ a:hover{
 }
 
 .multiple{
-  border-left: 2px solid #1dd1a1;
+  border-left: 2px solid #50443a;
   padding-left: 15px;
   margin-top: 10px;
 }
 
 .btn-outline-success{
-  color: #1dd1a1;
-  border: 1px solid #1dd1a1;
+  color: #50443a;
+  border: 1px solid #50443a;
 }
 
 .btn-outline-success:hover, .btn-outline-success:active{
   color: #fff;
-  border: 1px solid #1dd1a1;
-  background-color: #1dd1a1;
+  border: 1px solid #50443a;
+  background-color: #50443a;
 }
 
 .btn-outline-secondary{
@@ -128,4 +128,6 @@ a:hover{
 .text-muted{
   color: #1dd1a1 !important;
 }
+
+
 
